@@ -1,0 +1,36 @@
+﻿Build started 9/12/2011 2:06:28 LAME TIME.
+     1>Project "C:\Users\Adam\Projects\YCAM 2011\Touch\cplusplus\CHOP\CPlusPlusCHOPExample.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\CPlusPlusCHOPExample.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CPLUSPLUSCHOPEXAMPLE_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CPlusPlusCHOPExample.cpp
+         CPlusPlusCHOPExample.cpp
+     1>CPlusPlusCHOPExample.cpp(164): warning C4333: '>>' : right shift by too large amount, data loss
+     1>CPlusPlusCHOPExample.cpp(165): warning C4333: '>>' : right shift by too large amount, data loss
+     1>CPlusPlusCHOPExample.cpp(384): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>CPlusPlusCHOPExample.cpp(385): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>CPlusPlusCHOPExample.cpp(390): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>CPlusPlusCHOPExample.cpp(404): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>CPlusPlusCHOPExample.cpp(409): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>CPlusPlusCHOPExample.cpp(410): warning C4244: '=' : conversion from 'const float' to 'unsigned char', possible loss of data
+     1>CPlusPlusCHOPExample.cpp(405): warning C4101: 'values' : unreferenced local variable
+     1>CPlusPlusCHOPExample.cpp(462): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CPlusPlusCHOPExample.cpp(490): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>CPlusPlusCHOPExample.cpp(494): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Adam\Projects\YCAM 2011\Touch\cplusplus\CHOP\Debug\CPlusPlusCHOPExample.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CPlusPlusCHOPExample.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Adam\Projects\YCAM 2011\Touch\cplusplus\CHOP\Debug\CPlusPlusCHOPExample.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Adam\Projects\YCAM 2011\Touch\cplusplus\CHOP\Debug\CPlusPlusCHOPExample.lib" /MACHINE:X86 /DLL Debug\CPlusPlusCHOPExample.obj
+         ftd2xx.lib
+            Creating library C:\Users\Adam\Projects\YCAM 2011\Touch\cplusplus\CHOP\Debug\CPlusPlusCHOPExample.lib and object C:\Users\Adam\Projects\YCAM 2011\Touch\cplusplus\CHOP\Debug\CPlusPlusCHOPExample.exp
+         CPlusPlusCHOPExample.vcxproj -> C:\Users\Adam\Projects\YCAM 2011\Touch\cplusplus\CHOP\Debug\CPlusPlusCHOPExample.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Adam\Projects\YCAM 2011\Touch\cplusplus\CHOP\Debug\CPlusPlusCHOPExample.dll;#2" /manifest Debug\CPlusPlusCHOPExample.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\CPlusPlusCHOPExample.unsuccessfulbuild".
+         Touching "Debug\CPlusPlusCHOPExample.lastbuildstate".
+     1>Done Building Project "C:\Users\Adam\Projects\YCAM 2011\Touch\cplusplus\CHOP\CPlusPlusCHOPExample.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26
