@@ -1,1 +1,26 @@
-dmxTouchDesigner README
+I wrote this dmxTouchDesigner in November 2011 as part of an internship at the Yamaguchi Center for Arts and Media and funded by Arts SA Bank of Tokyo Mitsubishi Travel Fund. 
+
+This code uses the Touch Designer CPLUSPLUS CHOP example code along with the 
+
+Enttec Open DMX USB
+http://sourceforge.net/projects/opendmxusb/files/C%2B%2B%20Builder%20Example/V1.41/bc5_dmxusb_soft_141.zip/download
+
+Touch Designer CPLUSPLUS
+http://derivative.ca/wiki077/index.php?title=Write_a_CPlusPlus_DLL
+
+The purpose of this code is to enable direct communication between Touch Designer and Enttec DMX Pro USB. It's meant to be built as a dll and loaded into Touch Designer's CPLUSPLUS CHOP operator. When loaded into touch the dll will automatically initialise the Enttec and a light will start blinking on the device.
+
+IDE - Microsoft Visual c++ 2010
+
+Once built and loaded into Touch Designer -
+
+CHOP inputs
+Input 1 = DMX channels (limit of 512)
+Input 2 = DMX values (corresponding to the DMX channels)
+
+Floats page (1st row)
+value 1 = the device number (usually 0)
+value 2 = turn the device on and off (there should be a little pause when you turn it on)
+
+Floats page (2nd row)
+value 1 = the number of channels you are sending.
